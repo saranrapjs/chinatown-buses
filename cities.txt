@@ -1,0 +1,251 @@
+Cities with 100,000 or More Population in 2000 ranked by
+  Population, 2000 in Rank Order
+
+[CDP = census designated place, only used
+  in Hawaii which has no incorporated places]
+
+City in rank order                              Number     Rank
+---------------------------------------------------------------
+New York city, NY                            8,008,278        1
+Los Angeles city, CA                         3,694,820        2
+Chicago city, IL                             2,896,016        3
+Houston city, TX                             1,953,631        4
+Philadelphia city, PA                        1,517,550        5
+Phoenix city, AZ                             1,321,045        6
+San Diego city, CA                           1,223,400        7
+Dallas city, TX                              1,188,580        8
+San Antonio city, TX                         1,144,646        9
+Detroit city, MI                               951,270       10
+San Jose city, CA                              894,943       11
+Indianapolis city (balance), IN                781,870       12
+San Francisco city, CA                         776,733       13
+Jacksonville city, FL                          735,617       14
+Columbus city, OH                              711,470       15
+Austin city, TX                                656,562       16
+Baltimore city, MD                             651,154       17
+Memphis city, TN                               650,100       18
+Milwaukee city, WI                             596,974       19
+Boston city, MA                                589,141       20
+Washington city, DC                            572,059       21
+El Paso city, TX                               563,662       22
+Seattle city, WA                               563,374       23
+Denver city, CO                                554,636       24
+Nashville-Davidson (balance), TN               545,524       25
+Charlotte city, NC                             540,828       26
+Fort Worth city, TX                            534,694       27
+Portland city, OR                              529,121       28
+Oklahoma City city, OK                         506,132       29
+Tucson city, AZ                                486,699       30
+New Orleans city, LA                           484,674       31
+Las Vegas city, NV                             478,434       32
+Cleveland city, OH                             478,403       33
+Long Beach city, CA                            461,522       34
+Albuquerque city, NM                           448,607       35
+Kansas City city, MO                           441,545       36
+Fresno city, CA                                427,652       37
+Virginia Beach city, VA                        425,257       38
+Atlanta city, GA                               416,474       39
+Sacramento city, CA                            407,018       40
+Oakland city, CA                               399,484       41
+Mesa city, AZ                                  396,375       42
+Tulsa city, OK                                 393,049       43
+Omaha city, NE                                 390,007       44
+Minneapolis city, MN                           382,618       45
+Honolulu CDP, HI                               371,657       46
+Miami city, FL                                 362,470       47
+Colorado Springs city, CO                      360,890       48
+St. Louis city, MO                             348,189       49
+Wichita city, KS                               344,284       50
+Santa Ana city, CA                             337,977       51
+Pittsburgh city, PA                            334,563       52
+Arlington city, TX                             332,969       53
+Cincinnati city, OH                            331,285       54
+Anaheim city, CA                               328,014       55
+Toledo city, OH                                313,619       56
+Tampa city, FL                                 303,447       57
+Buffalo city, NY                               292,648       58
+St. Paul city, MN                              287,151       59
+Corpus Christi city, TX                        277,454       60
+Aurora city, CO                                276,393       61
+Raleigh city, NC                               276,093       62
+Newark city, NJ                                273,546       63
+Lexington-Fayette, KY                          260,512       64
+Anchorage city, AK                             260,283       65
+Louisville city, KY                            256,231       66
+Riverside city, CA                             255,166       67
+St. Petersburg city, FL                        248,232       68
+Bakersfield city, CA                           247,057       69
+Stockton city, CA                              243,771       70
+Birmingham city, AL                            242,820       71
+Jersey City city, NJ                           240,055       72
+Norfolk city, VA                               234,403       73
+Baton Rouge city, LA                           227,818       74
+Hialeah city, FL                               226,419       75
+Lincoln city, NE                               225,581       76
+Greensboro city, NC                            223,891       77
+Plano city, TX                                 222,030       78
+Rochester city, NY                             219,773       79
+Glendale city, AZ                              218,812       80
+Akron city, OH                                 217,074       81
+Garland city, TX                               215,768       82
+Madison city, WI                               208,054       83
+Fort Wayne city, IN                            205,727       84
+Fremont city, CA                               203,413       85
+Scottsdale city, AZ                            202,705       86
+Montgomery city, AL                            201,568       87
+Shreveport city, LA                            200,145       88
+Lubbock city, TX                               199,564       89
+Chesapeake city, VA                            199,184       90
+Mobile city, AL                                198,915       91
+Des Moines city, IA                            198,682       92
+Grand Rapids city, MI                          197,800       93
+Richmond city, VA                              197,790       94
+Yonkers city, NY                               196,086       95
+Spokane city, WA                               195,629       96
+Augusta-Richmond County (balance), GA          195,182       97
+Glendale city, CA                              194,973       98
+Tacoma city, WA                                193,556       99
+Irving city, TX                                191,615      100
+Huntington Beach city, CA                      189,594      101
+Modesto city, CA                               188,856      102
+Durham city, NC                                187,035      103
+Orlando city, FL                               185,951      104
+Boise City city, ID                            185,787      105
+Columbus city (balance), GA                    185,781      106
+Winston-Salem city, NC                         185,776      107
+San Bernardino city, CA                        185,401      108
+Jackson city, MS                               184,256      109
+Little Rock city, AR                           183,133      110
+Salt Lake City city, UT                        181,743      111
+Reno city, NV                                  180,480      112
+Newport News city, VA                          180,150      113
+Chandler city, AZ                              176,581      114
+Laredo city, TX                                176,576      115
+Henderson city, NV                             175,381      116
+Knoxville city, TN                             173,890      117
+Amarillo city, TX                              173,627      118
+Providence city, RI                            173,618      119
+Chula Vista city, CA                           173,556      120
+Worcester city, MA                             172,648      121
+Oxnard city, CA                                170,358      122
+Dayton city, OH                                166,179      123
+Garden Grove city, CA                          165,196      124
+Oceanside city, CA                             161,029      125
+Tempe city, AZ                                 158,625      126
+Huntsville city, AL                            158,216      127
+Ontario city, CA                               158,007      128
+Chattanooga city, TN                           155,554      129
+Fort Lauderdale city, FL                       152,397      130
+Springfield city, MA                           152,082      131
+Springfield city, MO                           151,580      132
+Santa Clarita city, CA                         151,088      133
+Salinas city, CA                               151,060      134
+Tallahassee city, FL                           150,624      135
+Rockford city, IL                              150,115      136
+Pomona city, CA                                149,473      137
+Paterson city, NJ                              149,222      138
+Overland Park city, KS                         149,080      139
+Santa Rosa city, CA                            147,595      140
+Syracuse city, NY                              147,306      141
+Kansas City city, KS                           146,866      142
+Hampton city, VA                               146,437      143
+Lakewood city, CO                              144,126      144
+Vancouver city, WA                             143,560      145
+Irvine city, CA                                143,072      146
+Aurora city, IL                                142,990      147
+Moreno Valley city, CA                         142,381      148
+Pasadena city, TX                              141,674      149
+Hayward city, CA                               140,030      150
+Brownsville city, TX                           139,722      151
+Bridgeport city, CT                            139,529      152
+Hollywood city, FL                             139,357      153
+Warren city, MI                                138,247      154
+Torrance city, CA                              137,946      155
+Eugene city, OR                                137,893      156
+Pembroke Pines city, FL                        137,427      157
+Salem city, OR                                 136,924      158
+Pasadena city, CA                              133,936      159
+Escondido city, CA                             133,559      160
+Sunnyvale city, CA                             131,760      161
+Savannah city, GA                              131,510      162
+Fontana city, CA                               128,929      163
+Orange city, CA                                128,821      164
+Naperville city, IL                            128,358      165
+Alexandria city, VA                            128,283      166
+Rancho Cucamonga city, CA                      127,743      167
+Grand Prairie city, TX                         127,427      168
+Fullerton city, CA                             126,003      169
+Corona city, CA                                124,966      170
+Flint city, MI                                 124,943      171
+Mesquite city, TX                              124,523      172
+Sterling Heights city, MI                      124,471      173
+Sioux Falls city, SD                           123,975      174
+New Haven city, CT                             123,626      175
+Topeka city, KS                                122,377      176
+Concord city, CA                               121,780      177
+Evansville city, IN                            121,582      178
+Hartford city, CT                              121,578      179
+Fayetteville city, NC                          121,015      180
+Cedar Rapids city, IA                          120,758      181
+Elizabeth city, NJ                             120,568      182
+Lansing city, MI                               119,128      183
+Lancaster city, CA                             118,718      184
+Fort Collins city, CO                          118,652      185
+Coral Springs city, FL                         117,549      186
+Stamford city, CT                              117,083      187
+Thousand Oaks city, CA                         117,005      188
+Vallejo city, CA                               116,760      189
+Palmdale city, CA                              116,670      190
+Columbia city, SC                              116,278      191
+El Monte city, CA                              115,965      192
+Abilene city, TX                               115,930      193
+North Las Vegas city, NV                       115,488      194
+Ann Arbor city, MI                             114,024      195
+Beaumont city, TX                              113,866      196
+Waco city, TX                                  113,726      197
+Independence city, MO                          113,288      198
+Peoria city, IL                                112,936      199
+Inglewood city, CA                             112,580      200
+Springfield city, IL                           111,454      201
+Simi Valley city, CA                           111,351      202
+Lafayette city, LA                             110,257      203
+Gilbert town, AZ                               109,697      204
+Carrollton city, TX                            109,576      205
+Bellevue city, WA                              109,569      206
+West Valley City city, UT                      108,896      207
+Clearwater city, FL                            108,787      208
+Costa Mesa city, CA                            108,724      209
+Peoria city, AZ                                108,364      210
+South Bend city, IN                            107,789      211
+Downey city, CA                                107,323      212
+Waterbury city, CT                             107,271      213
+Manchester city, NH                            107,006      214
+Allentown city, PA                             106,632      215
+McAllen city, TX                               106,414      216
+Joliet city, IL                                106,221      217
+Lowell city, MA                                105,167      218
+Provo city, UT                                 105,166      219
+West Covina city, CA                           105,080      220
+Wichita Falls city, TX                         104,197      221
+Erie city, PA                                  103,717      222
+Daly City city, CA                             103,621      223
+Clarksville city, TN                           103,455      224
+Norwalk city, CA                               103,298      225
+Gary city, IN                                  102,746      226
+Berkeley city, CA                              102,743      227
+Santa Clara city, CA                           102,361      228
+Green Bay city, WI                             102,313      229
+Cape Coral city, FL                            102,286      230
+Arvada city, CO                                102,153      231
+Pueblo city, CO                                102,121      232
+Cambridge city, MA                             101,355      233
+Westminster city, CO                           100,940      234
+San Buenaventura (Ventura) city, CA            100,916      235
+Portsmouth city, VA                            100,565      236
+Livonia city, MI                               100,545      237
+Burbank city, CA                               100,316      238
+Athens-Clarke County (balance), GA             100,266      239
+
+Source:  U.S. Census Bureau,
+         County and City Data Book: 2000,
+         Table C-1.

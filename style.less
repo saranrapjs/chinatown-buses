@@ -1,0 +1,171 @@
+body, html {
+	margin:0;
+	padding:0;
+	.text;
+}
+.text {
+	font-family: Helvetica;
+	font-weight: bold;
+	text-transform: uppercase;	
+}
+.transformed {
+	-webkit-transform:scale(1,2);
+	-moz-transform:scale(1,2);
+	transform:scale(1,2);
+}
+svg {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	// height:100%;
+}
+#gallery {
+	margin: 0 auto;
+	padding:0;
+	width: 100%;
+	list-style: none;
+	opacity: 0;
+	-webkit-transition:opacity: .1s;
+	-moz-transition:opacity: .1s;
+	transition:opacity: .1s;
+}
+#gallery.loaded {
+	opacity: 1;
+}
+#gallery li {
+	margin:1em auto 2em;
+	padding:0;
+}
+#gallery img, #gallery h1 {
+	display: block;
+	max-width: 100%;
+}
+#gallery img {
+	margin:0 auto;
+}
+#gallery p {
+	margin:1em auto;
+	max-width: 90%;
+	text-transform: none;
+}
+#main {
+	max-width: 100%;
+}
+.stretch {
+	.transformed;
+	padding:0;
+	-webkit-transform-origin:0 0;
+}
+.stretch {
+	h1, h2, h3, h4 {
+		.text;
+		text-align: center;	
+		margin-bottom:3em;
+	}
+}
+.buttons {
+	.text;
+	.transformed;
+	position: fixed;
+	z-index: 1000;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	bottom:20px;
+	border:0;
+	background: 0;
+	cursor: pointer;
+	font-size: 1em;
+	-webkit-transition:opacity .3s;
+	-moz-transition:opacity .3s;
+	transition:opacity .3s;
+	opacity: .5;
+}
+.buttons:hover {
+	opacity: 1;
+}
+#reload {
+	right:5px;
+}
+#more {
+	left:5px;
+}
+
+.node, .buttons {
+	font-size:2em;
+}
+
+.source {
+	font-size: 2em;
+}
+.link {
+	stroke:#000;
+}
+.line {
+	fill: none;
+	stroke-width:5;	
+}
+.arrow {
+
+}
+
+
+
+.styler ( @background:yellow, @text:blue, @line:blue, @guard:false, @guardColor:red ) {
+	background: @background;
+
+	.arrow {
+		fill:@line;
+		stroke:@line;
+	}
+	.line {
+		stroke:@line;
+	}
+	.alternate() {
+
+	}
+	.alternate() when (@guard = true) {
+		.node:nth-child(even) text.destination {
+			color:@guardColor;
+			fill:@guardColor;
+		}
+	}
+	.alternate;
+	.node text {
+		color:@text;
+		fill:@text;
+	}
+	.buttons, h1, h2, h3, h4, p {
+		color:@text;
+	}
+	a {
+		color:darken(@text,10%);
+	}
+	.svg {
+		background: @background;
+	}
+
+}
+
+.style0 {
+	.styler;
+}
+
+.style1 {
+	.styler( blue, white, white );
+}
+
+.style2 {
+	.styler( white, red, red );
+}
+
+.style3 {
+	.styler( white, blue, blue );
+}
+.style4 {
+	.styler( hotpink, white, white );
+}
+.style5 {
+	.styler( white, rgb(9, 175, 55), rgb(9, 175, 55) );
+}
+.style6 {
+	.styler( white, red, red, true, blue );
+}
