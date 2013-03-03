@@ -6,7 +6,7 @@ body, html {
 .text {
 	font-family: Helvetica;
 	font-weight: bold;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 .transformed {
 	-webkit-transform:scale(1,2);
@@ -32,7 +32,7 @@ svg {
 #gallery.loaded {
 	opacity: 1;
 }
-#gallery li {
+#gallery > li {
 	margin:1em auto 2em;
 	padding:0;
 }
@@ -43,10 +43,19 @@ svg {
 #gallery img {
 	margin:0 auto;
 }
-#gallery p {
-	margin:1em auto;
+.links {
 	max-width: 90%;
-	text-transform: none;
+	margin:0 auto;
+	padding: 0;
+	li {
+		text-transform: none;
+		margin:1em 0 0 2em;
+	}
+}
+#gallery p {
+		margin:1em auto;
+		max-width: 90%;
+		text-transform: none;
 }
 #main {
 	max-width: 100%;
@@ -133,7 +142,7 @@ svg {
 		color:@text;
 		fill:@text;
 	}
-	.buttons, h1, h2, h3, h4, p {
+	.buttons, h1, h2, h3, h4, p, li {
 		color:@text;
 	}
 	a {

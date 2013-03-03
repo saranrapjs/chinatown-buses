@@ -34,7 +34,7 @@ svg {
 #gallery.loaded {
   opacity: 1;
 }
-#gallery li {
+#gallery > li {
   margin: 1em auto 2em;
   padding: 0;
 }
@@ -45,6 +45,15 @@ svg {
 }
 #gallery img {
   margin: 0 auto;
+}
+.links {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0;
+}
+.links li {
+  text-transform: none;
+  margin: 1em 0 0 2em;
 }
 #gallery p {
   margin: 1em auto;
@@ -133,7 +142,8 @@ svg {
 .style0 h2,
 .style0 h3,
 .style0 h4,
-.style0 p {
+.style0 p,
+.style0 li {
   color: #0000ff;
 }
 .style0 a {
@@ -161,7 +171,8 @@ svg {
 .style1 h2,
 .style1 h3,
 .style1 h4,
-.style1 p {
+.style1 p,
+.style1 li {
   color: #ffffff;
 }
 .style1 a {
@@ -189,7 +200,8 @@ svg {
 .style2 h2,
 .style2 h3,
 .style2 h4,
-.style2 p {
+.style2 p,
+.style2 li {
   color: #ff0000;
 }
 .style2 a {
@@ -217,7 +229,8 @@ svg {
 .style3 h2,
 .style3 h3,
 .style3 h4,
-.style3 p {
+.style3 p,
+.style3 li {
   color: #0000ff;
 }
 .style3 a {
@@ -245,7 +258,8 @@ svg {
 .style4 h2,
 .style4 h3,
 .style4 h4,
-.style4 p {
+.style4 p,
+.style4 li {
   color: #ffffff;
 }
 .style4 a {
@@ -273,7 +287,8 @@ svg {
 .style5 h2,
 .style5 h3,
 .style5 h4,
-.style5 p {
+.style5 p,
+.style5 li {
   color: #09af37;
 }
 .style5 a {
@@ -305,7 +320,8 @@ svg {
 .style6 h2,
 .style6 h3,
 .style6 h4,
-.style6 p {
+.style6 p,
+.style6 li {
   color: #ff0000;
 }
 .style6 a {
