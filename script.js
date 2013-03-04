@@ -35,13 +35,14 @@ function load() {
 		if (foldChange === true) {
 			foldChange = null;
 			document.querySelector("#more").innerHTML = (belowTheFold === true)
-				? "(more &uarr;)"
-				: "(more &darr;)";
+				? "more &uarr;"
+				: "more &darr;";
 		}
 	},100);
 	document.body.className = "style"+Math.floor(Math.random()*7);
 	document.querySelector("#reload").onclick = function() {
 		load();
+		if (belowTheFold === true) scroll(!belowTheFold);
 		return false;
 	}
 	document.querySelector("#more").onclick = function() {

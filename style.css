@@ -33,12 +33,13 @@ svg {
   -webkit-transition: opacity: .1s;
   -moz-transition: opacity: .1s;
   transition: opacity: .1s;
+  position: relative;
 }
 #gallery.loaded {
   opacity: 1;
 }
 #gallery > li {
-  margin: 1em auto 2em;
+  margin: 2em auto;
   padding: 0;
 }
 #gallery img,
@@ -87,9 +88,18 @@ svg {
 }
 #buttons {
   position: fixed;
-  bottom: 0;
+  bottom: 3.5em;
   right: 10px;
   width: 12em;
+  text-align: right;
+  width: 118px;
+  z-index: 0;
+}
+#more {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  right: 10px;
 }
 .buttons {
   font-family: Helvetica;
@@ -98,25 +108,43 @@ svg {
   -webkit-transform: scale(1, 2);
   -moz-transform: scale(1, 2);
   transform: scale(1, 2);
-  z-index: 1000;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   padding: 0;
-  border: 0;
+  border: 2px solid #FFF;
+  border-radius: 22px;
   background: 0;
-  width: 100%;
   cursor: pointer;
-  font-size: 1.5em;
+  font-size: 1em;
   -webkit-transition: opacity .3s;
   -moz-transition: opacity .3s;
   transition: opacity .3s;
   opacity: .5;
   display: block;
-  text-align: right;
-  margin: 1.5em 0;
+  text-align: center;
+  margin: 1.9em 0;
   text-decoration: none;
+  width: 120px;
+  line-height: 1.3em;
+  box-sizing: border-box;
 }
 .buttons:hover {
   opacity: 1;
+}
+@media only screen and (max-width: 480px) {
+  .buttons,
+  #more {
+    font-size: .8em;
+  }
+  #buttons {
+    bottom: 3em;
+  }
+}
+#reload,
+#download {
+  z-index: 0;
+}
+#more {
+  z-index: 600;
 }
 .node {
   font-size: 2em;
@@ -145,6 +173,10 @@ svg {
   color: #0000ff;
   fill: #0000ff;
 }
+.style0 #gallery,
+.style0 #more {
+  background-color: #ffff00;
+}
 .style0 .buttons,
 .style0 h1,
 .style0 h2,
@@ -153,6 +185,9 @@ svg {
 .style0 p,
 .style0 li {
   color: #0000ff;
+}
+.style0 .buttons {
+  border-color: #0000ff;
 }
 .style0 a {
   color: #0000cc;
@@ -174,6 +209,10 @@ svg {
   color: #ffffff;
   fill: #ffffff;
 }
+.style1 #gallery,
+.style1 #more {
+  background-color: #0000ff;
+}
 .style1 .buttons,
 .style1 h1,
 .style1 h2,
@@ -182,6 +221,9 @@ svg {
 .style1 p,
 .style1 li {
   color: #ffffff;
+}
+.style1 .buttons {
+  border-color: #ffffff;
 }
 .style1 a {
   color: #e6e6e6;
@@ -203,6 +245,10 @@ svg {
   color: #ff0000;
   fill: #ff0000;
 }
+.style2 #gallery,
+.style2 #more {
+  background-color: #ffffff;
+}
 .style2 .buttons,
 .style2 h1,
 .style2 h2,
@@ -211,6 +257,9 @@ svg {
 .style2 p,
 .style2 li {
   color: #ff0000;
+}
+.style2 .buttons {
+  border-color: #ff0000;
 }
 .style2 a {
   color: #cc0000;
@@ -232,6 +281,10 @@ svg {
   color: #0000ff;
   fill: #0000ff;
 }
+.style3 #gallery,
+.style3 #more {
+  background-color: #ffffff;
+}
 .style3 .buttons,
 .style3 h1,
 .style3 h2,
@@ -240,6 +293,9 @@ svg {
 .style3 p,
 .style3 li {
   color: #0000ff;
+}
+.style3 .buttons {
+  border-color: #0000ff;
 }
 .style3 a {
   color: #0000cc;
@@ -261,6 +317,10 @@ svg {
   color: #ffffff;
   fill: #ffffff;
 }
+.style4 #gallery,
+.style4 #more {
+  background-color: #ff69b4;
+}
 .style4 .buttons,
 .style4 h1,
 .style4 h2,
@@ -269,6 +329,9 @@ svg {
 .style4 p,
 .style4 li {
   color: #ffffff;
+}
+.style4 .buttons {
+  border-color: #ffffff;
 }
 .style4 a {
   color: #e6e6e6;
@@ -290,6 +353,10 @@ svg {
   color: #09af37;
   fill: #09af37;
 }
+.style5 #gallery,
+.style5 #more {
+  background-color: #ffffff;
+}
 .style5 .buttons,
 .style5 h1,
 .style5 h2,
@@ -298,6 +365,9 @@ svg {
 .style5 p,
 .style5 li {
   color: #09af37;
+}
+.style5 .buttons {
+  border-color: #09af37;
 }
 .style5 a {
   color: #077e28;
@@ -323,6 +393,10 @@ svg {
   color: #ff0000;
   fill: #ff0000;
 }
+.style6 #gallery,
+.style6 #more {
+  background-color: #ffffff;
+}
 .style6 .buttons,
 .style6 h1,
 .style6 h2,
@@ -331,6 +405,9 @@ svg {
 .style6 p,
 .style6 li {
   color: #ff0000;
+}
+.style6 .buttons {
+  border-color: #ff0000;
 }
 .style6 a {
   color: #cc0000;
