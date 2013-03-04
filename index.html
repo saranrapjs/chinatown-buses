@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8"/>
 <meta charset="utf-8">
 <link href="style.css" rel="stylesheet">
 <style>
+
 </style>
 </head>
 <body>
-	<button class="buttons" id="reload">(Refresh)</button>
-	<button class="buttons" id="more">(More &darr;)</button>
+	<div id="buttons">
+		<button class="buttons" id="reload">(refresh &#8635;)</button>
+		<a class="buttons" target="_blank" id="download">(download)</a>
+		<button class="buttons" id="more">(more &darr;)</button>
+	</div>
 	<header id="main"></header>
 	<ul id="gallery">
 		<li class="stretch"><h1>Chinatown Buses</h1></li>
@@ -18,7 +23,7 @@
 				Cities are derived from the Census's <a href="http://www.census.gov/statab/ccdb/cit1020r.txt">"Cities with 100,000 or More Population in 2000"</a>.  US cities only for now, though I'd love to hear about Chinatown buses on other continents, if such a thing exists!  Some destinations ocassionally appear with their Mandarin equivalents.
 			</p>
 			<p>
-				Built with <a href="http://d3js.org/">D3.js</a>.  <a href="https://github.com/saranrapjs/chinatown-buses">Code on Github.</a>
+				The "Download" feature is extremely experimental.  Built with <a href="http://d3js.org/">D3.js</a>.  <a href="https://github.com/saranrapjs/chinatown-buses">Code on Github.</a>
 			</p>
 			<p>
 				Questions? crucial destination missing? supplemental Mandarin translations? <a href="mailto:jeffsisson@gmail.com">please email me (Jeff Sisson)</a>.

@@ -170,8 +170,30 @@ function load() {
 				    	? "M 10,-5 L 0,0 L10,5"    
 						: "M 0,-5 L 10,0 L0,5"
 			    });
+
+
+
+		d3.xhr("style.css", 'text/plain',function(response) {
+			  var html = d3.select("svg")
+			      .attr("version", 1.1)
+			      .attr("xmlns", "http://www.w3.org/2000/svg")
+			      .node().parentNode.innerHTML;
+			 html = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" + html;
+			  html = html.replace('</defs>', "<style type='text/css'><![CDATA["+response.responseText+"]]></style></defs>")
+			  html = html.replace("<svg class=\"svg\"","<svg class=\"svg "+document.body.className+"\"");
+			  d3.select("body").select("#download")
+			      .attr("title", "file.svg")
+			      .attr("href-lang", "image/svg+xml")
+			      .attr("href", "data:image/svg+xml;base64,\n" + btoa(unescape(encodeURIComponent( html ))))
+			      
+
+		});
+
+		document.querySelector("#gallery").className = "loaded";
+
+
 	});
-	document.querySelector("#gallery").className = "loaded";
+
 }
 window.onscroll = onScroll;
 window.onload = load;
