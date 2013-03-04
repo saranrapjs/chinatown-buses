@@ -6,4 +6,4 @@ Code behind http://chinatownbuses.info/.  Uses d3.js.  Styles pre-processed with
 Note: photos are referenced in `index.html` that not included in the repo.  You're welcome to download them at your leisure.
 
 Known issues:
-* For some reason, the data URL which permits "downloading" of the generated SVG does not properly display the Chinese unicode characters in Google Chrome.
+* For some reason, the arrows don't show up in Chrome when "downloading" the SVG.

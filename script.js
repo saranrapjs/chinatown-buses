@@ -178,13 +178,14 @@ function load() {
 			      .attr("version", 1.1)
 			      .attr("xmlns", "http://www.w3.org/2000/svg")
 			      .node().parentNode.innerHTML;
-			 html = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" + html;
-			  html = html.replace('<defs>', "<defs><style type='text/css'><![CDATA["+response.responseText+"]]></style>")
-			  html = html.replace("class=\"svg\"","class=\"svg "+document.body.className+"\"");
+				html = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n" + html;
+				html = html.replace('<defs>', "<defs><style type='text/css'><![CDATA["+response.responseText+"]]></style>")
+				html = html.replace("class=\"svg\"","class=\"svg "+document.body.className+"\"");
+
 			  d3.select("body").select("#download")
 			      .attr("title", "file.svg")
 			      .attr("href-lang", "image/svg+xml")
-			      .attr("href", "data:image/svg+xml;base64,\n" + btoa(unescape(encodeURIComponent( html ))))
+			      .attr("href", "data:image/svg+xml;charset=utf-8;base64,\n" + btoa(unescape(encodeURIComponent( html ))))
 
 		});
 
