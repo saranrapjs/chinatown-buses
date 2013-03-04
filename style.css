@@ -57,9 +57,11 @@ svg {
 .links li {
   text-transform: none;
   margin: 1em 0 0 2em;
+  font-weight: normal;
 }
 #gallery p {
   margin: 1em auto;
+  font-weight: normal;
   max-width: 90%;
   text-transform: none;
 }
