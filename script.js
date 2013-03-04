@@ -82,7 +82,8 @@ function load() {
 
 			var link = svg.selectAll(".link")
 					.data(links)
-				.enter().append("path")
+					.enter()
+					.append("path")
 					.attr("marker-end", function(d) { return "url(#end)"; })
 					.attr("marker-start", function(d) { return (root.children.length === 1) ? "url(#start)" : null; })
 					.attr("class", "link line")
@@ -96,7 +97,25 @@ function load() {
 							[d.target.y,d.target.x]
 						]);
 					});
-
+			// not clear why, but desktop Safari likes it when I put the marker defs here:
+			svg.append("svg:defs").selectAll("marker")
+			    .data(["end", "start"])
+			  .enter().append("marker")
+			    .attr("id", String)
+			    .attr('class','link arrow')
+			    .attr("viewBox", "0 -5 10 10")
+			    .attr("orient", "auto")
+			    .attr("refX", 5)
+			    .attr("refY", 0)
+			    .attr("markerWidth", 6)
+			    .attr("markerHeight", 3)
+			    .attr("orient", "auto")
+				.append("svg:path")
+			    .attr("d", function(d) {
+			    	return (d == "start") 
+				    	? "M 10,-5 L 0,0 L10,5"    
+						: "M 0,-5 L 10,0 L0,5"
+			    });
 			var node = svg.selectAll(".node")
 					.data(nodes)
 				.enter().append("g")
@@ -152,24 +171,7 @@ function load() {
 								// .attr('width',bbox.width)
 					})
 
-			svg.append("svg:defs").selectAll("marker")
-			    .data(["end", "start"])
-			  .enter().append("svg:marker")
-			    .attr("id", String)
-			    .attr('class','link arrow')
-			    .attr("viewBox", "0 -5 10 10")
-			    .attr("orient", "auto")
-			    .attr("refX", 5)
-			    .attr("refY", 0)
-			    .attr("markerWidth", 6)
-			    .attr("markerHeight", 3)
-			    .attr("orient", "auto")
-			  .append("svg:path")
-			    .attr("d", function(d) {
-			    	return (d == "start") 
-				    	? "M 10,-5 L 0,0 L10,5"    
-						: "M 0,-5 L 10,0 L0,5"
-			    });
+
 
 
 
