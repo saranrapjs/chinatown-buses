@@ -1,7 +1,7 @@
 Chinatown Buses
 =====
 
-Code behind http://chinatownbuses.info/.  Uses d3.js.  Styles pre-processed with LESS.  
+Code behind http://chinatownbuses.info/.  Uses [d3.js](http://d3js.org/).  Styles pre-processed with [LESS](http://lesscss.org/).  
 
 Note: photos are referenced in `index.html` that not included in the repo.  You're welcome to download them at your leisure.
 
