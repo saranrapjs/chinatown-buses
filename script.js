@@ -58,12 +58,32 @@ function load() {
 	var diagonal = d3.svg.line()
 
 
-	var svg = d3.select("#main")
+	var big = d3.select("#main")
 			.append("svg")
 			.attr("class","svg")
 			.attr("width", width)
 			.attr("height", window.innerHeight)
-			.append("g")
+			// not clear why, but desktop Safari likes it when I put the marker defs here:
+			d3.select("svg").append("svg:defs").selectAll("marker")
+			    .data(["End", "Start"])
+			  .enter().append("marker")
+			    .attr("id", String)
+			    .attr('class','link arrow')
+			    .attr("viewBox", "0 -5 10 10")
+			    .attr("orient", "auto")
+			    .attr("refX", 5)
+			    .attr("refY", 0)
+			    .attr("markerWidth", 6)
+			    .attr("markerHeight", 3)
+			    .attr("orient", "auto")
+				.append("svg:path")
+			    .attr("d", function(d) {
+			    	return (d == "Start") 
+				    	? "M 10,-5 L 0,0 L10,5"    
+						: "M 0,-5 L 10,0 L0,5"
+			    });
+
+	var svg = big.append("g")
 			// .attr("y",0)
 
 	d3.json("cities.json", function(error, json) { //http://www.census.gov/statab/ccdb/cit1020r.txt
@@ -84,8 +104,8 @@ function load() {
 					.data(links)
 					.enter()
 					.append("path")
-					.attr("marker-end", function(d) { return "url(#end)"; })
-					.attr("marker-start", function(d) { return (root.children.length === 1) ? "url(#start)" : null; })
+					.attr("marker-end", function(d) { return "url(#End)"; })
+					.attr("marker-start", function(d) { return (root.children.length === 1) ? "url(#Start)" : null; })
 					.attr("class", "link line")
 					.attr("d", function(d,i){
 						var total = links.length-1,
@@ -97,25 +117,7 @@ function load() {
 							[d.target.y,d.target.x]
 						]);
 					});
-			// not clear why, but desktop Safari likes it when I put the marker defs here:
-			svg.append("svg:defs").selectAll("marker")
-			    .data(["end", "start"])
-			  .enter().append("marker")
-			    .attr("id", String)
-			    .attr('class','link arrow')
-			    .attr("viewBox", "0 -5 10 10")
-			    .attr("orient", "auto")
-			    .attr("refX", 5)
-			    .attr("refY", 0)
-			    .attr("markerWidth", 6)
-			    .attr("markerHeight", 3)
-			    .attr("orient", "auto")
-				.append("svg:path")
-			    .attr("d", function(d) {
-			    	return (d == "start") 
-				    	? "M 10,-5 L 0,0 L10,5"    
-						: "M 0,-5 L 10,0 L0,5"
-			    });
+
 			var node = svg.selectAll(".node")
 					.data(nodes)
 				.enter().append("g")
