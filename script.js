@@ -102,7 +102,6 @@ function load() {
 		root.children = places;
 
 		if (originalHash && originalHash.length > 1 && hashChecked === false) { // we're retrieving a bookmark
-			hashChecked = true;
 			var root = {};
 			originalHash.forEach(function(pop,i) {
 				pop = parseInt(pop)
@@ -119,6 +118,7 @@ function load() {
 				})
 			})
 		}
+		hashChecked = true;
 
 		if (root.children.length === 1) root.children[0].single = true;
 
